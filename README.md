@@ -65,9 +65,11 @@
 <br>
 
 ## 4) 타입별 유형1과 유형2 비교
-<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/aaff2034-3f86-4086-a08b-1d4d48741285></h3>
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/aaff2034-3f86-4086-a08b-1d4d48741285></h3><br>
+
 ### 가장 일반적인 유형 조합 / 전설 포켓몬의 가장 일반적인 유형
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/c5e27e8c-ec27-4984-8b2d-205030678f80></h3>
+<br>
 
 # 📄 Modeling
 ## 1) 군집화
