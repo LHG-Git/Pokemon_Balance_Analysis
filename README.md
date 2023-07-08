@@ -156,6 +156,7 @@
 * <strong>불, 어둠, 용 타입의 포켓몬은 attack, sp_attack, speed가 top5에 들기 때문에 공격위주의 포켓몬이다.</strong>
 * <strong> 요정, 얼음, 땅 타입의 포켓몬은 defense, sp_defense, hp가 top5에 들기 때문에 방어위주의 포켓몬이다.</strong>
 <br>
+
 * 전설의 포켓몬:
 >* Top 5 types - attack: ground, bug, fairy, normal, dragon
 >* Top 5 types - sp_attack: dragon, dark, fairy, ground, electric
