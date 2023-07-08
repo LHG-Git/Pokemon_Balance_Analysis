@@ -107,6 +107,7 @@
 
 * 가장 키가 큰 포켓몬 5개 중 2개는 전설의 포켓몬이며, 무거운 포켓몬 5개 중 4개는 전설의 포켓몬이다.
 * 셀레스틸라는 몸무게와 키 모두 top5안에 드는 유일한 포켓몬이다.
+<br>
 
 ## 9) BMI가 가장 높은 포켓몬스터 / BMI가 가장 낮은 포켓몬스터
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/48a6ae87-ed98-4bcc-91bc-95f74bf17877></h3>
@@ -114,6 +115,30 @@
 * BMI가 가장 높은 포켓몬스터는 Cosmoem이다.
 * Haunter와 진화 이전 Gastly가 가장 낮으며, Dratini와 진화버전 Gragonair가 그 뒤를 잇는다.
 <br>
+
+## 10) 최고 세대
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/7789826e-a908-49b3-a404-84ce4099e2c3></h3>
+
+* 일반 포켓몬 중에서는 4세대에 최고의 능력치를 가진 포켓몬이 있고, 전설의 포켓몬 중에서는 3세대에 최고의 능력치를 가진 포켓몬이 있다.
+<br>
+
+## 11) 속성별 상관관계
+### 11-A 일반 포켓몬스터
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/ec624a17-70eb-4498-93f7-3cd75429ecea></h3>
+
+* 일반 포켓몬에 대해
+>* hp와 sp_attack, sp_defense와 attack 사이에는 양의 관계가 있다. 하지만 방어와는 낮은 상관관계를 보여주고있다. 방어가 높은 포켓몬이 더 높은 hp를 가질것이라 생각하였지만 그게 아니었다!! wow factor아닌가?..
+>* attack은 defense와 가장 밀접한 관계가 있다.
+>* Defense는 sp_defense와 가장 강한 관계가 있다.
+>* Speed는 defense와 매우 약한 음의 관계가 있다.
+<br>
+### 11-B 전설 포켓몬스터
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/5aeb433e-2d40-4f4f-921d-07e149646bbb></h3>
+
+* 전설의 포켓몬에 대해
+>* 전설의 포켓몬은 attack과 sp_defense, 방어와 sp_attack의 관계가 음의 관계로 바뀐다. 또한 attack과 speed가 양의 관계로, defense와 speed의 관계가 음의 관계로 더 강해졌다.
+>* 즉, 공격수 타입의 전설의 포켓몬은 공격력과 스피드가 더 빨라졌고 수비수 타입의 전설의 포켓몬은 방어를 높이고 스피드를 낮추며 밸런스를 조절하였다.
+>* 그렇다면, 공격적인 전설의 포켓몬은 밸런스가 매우 붕괴된게 아닌가..? 공격과 스피드를 둘다 줬으니!!
 
 # 📄 Modeling
 ## 1) 군집화
