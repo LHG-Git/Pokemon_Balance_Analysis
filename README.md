@@ -47,19 +47,19 @@
 ## 1) 세대별 포켓몬 수
 <h3 align="center"><img src= "https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/7791f49f-38f5-4f6a-a2b3-937814d21e9e"></h3>
 
-
 * 홀수 세대는 짝수 세대에 비해 더 많은 포켓몬이 존재
 <br>
 
 
-## 2) 관측소별 화학적 산소농도 차이 시각화
-<h3 align="center"><img src= https://github.com/LHG-Git/project/assets/100845169/b16cd70a-8f7e-4527-9e8d-2d286685670d></h3>
+## 2) 가장 흔한 유형
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/f84f8f58-23d1-49e6-a218-d35d2695f293></h3>
 
-* 동해에 위치한 모든 관측치에서는 화학적 산소농도값이 정상범위(약 1.0)을 기록
+* 물 -> 노멀 -> 풀 ... 의 순으로 타입이 많다.
 
-* 서해의 논산과 인천부근 그리고 남해의 부산과 창원부근의 관측치에서는 정상 수치보다 높은 화학적 산소 농도값이 기록된 것을 통해 화학적 산소농도 값이 위치적 특성에 따라 영향을 받는다는 것을 확인
+<br>
 
-<br><br>
+## 3) 보조 타입 여부
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/43d0fa9a-7fc3-4833-85de-59e5a95c5209></h3>
 
 # 📄 Modeling
 ## 1) 군집화
