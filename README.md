@@ -123,23 +123,50 @@
 <br>
 
 ## 11) 속성별 상관관계
-### 11-A 일반 포켓몬스터
+### 11-A) 일반 포켓몬스터
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/ec624a17-70eb-4498-93f7-3cd75429ecea></h3>
 
 * 일반 포켓몬에 대해
->* hp와 sp_attack, sp_defense와 attack 사이에는 양의 관계가 있다. 하지만 방어와는 낮은 상관관계를 보여주고있다. 방어가 높은 포켓몬이 더 높은 hp를 가질것이라 생각하였지만 그게 아니었다!! wow factor아닌가?..
+>* hp와 sp_attack, sp_defense와 attack 사이에는 양의 관계가 있다. 하지만 방어와는 낮은 상관관계를 보여주고있다. 방어가 높은 포켓몬이 더 높은 hp를 가질것이라 생각하였지만 그게 아니었다.
 >* attack은 defense와 가장 밀접한 관계가 있다.
 >* Defense는 sp_defense와 가장 강한 관계가 있다.
 >* Speed는 defense와 매우 약한 음의 관계가 있다.
 <br>
 
-### 11-B 전설 포켓몬스터
+### 11-B) 전설 포켓몬스터
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/5aeb433e-2d40-4f4f-921d-07e149646bbb></h3>
 
 * 전설의 포켓몬에 대해
 >* 전설의 포켓몬은 attack과 sp_defense, 방어와 sp_attack의 관계가 음의 관계로 바뀐다. 또한 attack과 speed가 양의 관계로, defense와 speed의 관계가 음의 관계로 더 강해졌다.
 >* 즉, 공격수 타입의 전설의 포켓몬은 공격력과 스피드가 더 빨라졌고 수비수 타입의 전설의 포켓몬은 방어를 높이고 스피드를 낮추며 밸런스를 조절하였다.
 >* 그렇다면, 공격적인 전설의 포켓몬은 밸런스가 매우 붕괴된게 아닌가..? 공격과 스피드를 둘다 줬으니!!
+<br>
+
+## 12) 가장 좋은 유형은?
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/5dace01c-195c-4c01-9177-5992ddcae1c6></h3>
+
+* 일반 포켓몬:
+>* Top 5 types - attack: fighting, dragon, ground, dark, steel
+>* Top 5 types - sp_attack: psychic, electric, fairy, fire, ghost
+>* Top 5 types - defense: steel, rock, ground, ghost, ice
+>* Top 5 types - sp_defense: steel, fairy, ghost, psychic, dragon
+>* Top 5 types - hp: fairy, normal, fighting, ice, ground
+>* Top 5 types - speed: flying, electric, fire, dark, dragon
+>* Top 5 types - base_total: ghost, steel, fighting, fairy and ice
+* <strong>불, 어둠, 용 타입의 포켓몬은 attack, sp_attack, speed가 top5에 들기 때문에 공격위주의 포켓몬이다.</strong>
+* <strong> 요정, 얼음, 땅 타입의 포켓몬은 defense, sp_defense, hp가 top5에 들기 때문에 방어위주의 포켓몬이다.</strong>
+<br>
+* 전설의 포켓몬:
+>* Top 5 types - attack: ground, bug, fairy, normal, dragon
+>* Top 5 types - sp_attack: dragon, dark, fairy, ground, electric
+>* Top 5 types - defense: ground, steel, normal, dragon, ghost
+>* Top 5 types - sp_defense: ice, water, normal, psychic, rock
+>* Top 5 types - hp: ghost, dark, fairy, normal, dragon
+>* Top 5 types - speed: flying, normal, grass, rock, electric
+>* Top 5 types - base_total: dragon, ground, fairy, ghost, normal
+* <strong>일반, 전기 타입의 포켓몬이 공격하기 좋은 포켓몬</strong>
+* <strong>고스트, 노멀, 드래곤이 방어하기 좋은 포켓몬</strong>
+<br>
 
 # 📄 Modeling
 ## 1) 군집화
