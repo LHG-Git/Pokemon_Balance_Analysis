@@ -171,6 +171,7 @@
 
 ## 13) 유형 효율성 분석
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/8bbfb770-d5f8-483a-b251-15407eb52747></h3>
+
 * 전기는 땅 타입에 약하고, 노말은 격투 타입에 약하다는 것을 강조하기 한다. 신기하게도 유령은 유령끼리 약하고 비행은 얼음에 극도로 약하다는 인사이트를 도출했다.
 <br>
 
