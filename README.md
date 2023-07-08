@@ -61,6 +61,14 @@
 ## 3) 보조 타입 여부
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/43d0fa9a-7fc3-4833-85de-59e5a95c5209></h3>
 
+* 포켓몬의 거의 절반이 보조 유형이 없다.
+<br>
+
+## 4) 타입별 유형1과 유형2 비교
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/aaff2034-3f86-4086-a08b-1d4d48741285></h3>
+### 가장 일반적인 유형 조합 / 전설 포켓몬의 가장 일반적인 유형
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/c5e27e8c-ec27-4984-8b2d-205030678f80></h3>
+
 # 📄 Modeling
 ## 1) 군집화
 <h3 align="center"><img src= https://github.com/LHG-Git/project/assets/100845169/e22674c7-b20e-4298-b8bc-b7b9f2f4583a></h3>
