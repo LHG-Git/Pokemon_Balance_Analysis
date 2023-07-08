@@ -169,55 +169,33 @@
 * <strong>고스트, 노멀, 드래곤이 방어하기 좋은 포켓몬</strong>
 <br>
 
-# 📄 Modeling
-## 1) 군집화
-<h3 align="center"><img src= https://github.com/LHG-Git/project/assets/100845169/e22674c7-b20e-4298-b8bc-b7b9f2f4583a></h3>
-
-* 최적의 k값 도출을 위해 <strong>실루엣 계수</strong>를 사용<br> 
-* 이때 실루엣 계수 평균만을 고려하지 않았고 figure5를 통해 도출된 인사이트를 함께 고려<br>
-* 그 결과 cluster별 실루엣 계수 평균이 가장 높지는 않지만, 실루엣 계수의 너비가 비교적 균일한 지점에서 <strong>최적의 k(k=6)값을 도출</strong><br><br>
-
-<h3 align="center"><img src= https://github.com/LHG-Git/project/assets/100845169/909e7b1d-0b40-4745-abc5-f3652ef06a84></h3>
-
-* 최적의 K값을 통해 위치별 군집화 결과, figure 5에서 인천 부근의 서해에 위치한 관측치와, 부산 부근의 남해에 위치한 관측치에서 화학적 산소농도 수치가 높게 기록
+## 13) 유형 효율성 분석
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/8bbfb770-d5f8-483a-b251-15407eb52747></h3>
+* 전기는 땅 타입에 약하고, 노말은 격투 타입에 약하다는 것을 강조하기 한다. 신기하게도 유령은 유령끼리 약하고 비행은 얼음에 극도로 약하다는 인사이트를 도출했다.
 <br>
 
-## 2) 모델 성능 지표 선정
-* 성능 지표의 경우 본 프로젝트의 주제 자체가 ‘해양정보를 활용한 해양오염 예측’이기 때문에, 모델의 설명력을 나타내는 R2값 보다 실제 예측 오차의 크기인 MAE가 본 프로젝트와 맞는 지표라고 생각하여, <strong>MAE값을 기준으로 최종 모델을 선정</strong>
+## 14) 최고의 포켓몬스터는?
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/b0bacd85-0ab5-48ef-88f6-fb355a95b01b></h3>
+
+* 뮤츠와 레쿠자가 가장 좋은 포켓몬으로 선정되었다.
 <br>
 
-## 3) 최종 모델 선정
-<h3 align="center"><img src= https://github.com/LHG-Git/project/assets/100845169/da4b5525-0513-4615-a954-9778eadeda55></h3>
+## 📄 분석결과 요약
+* 물타입의 포켓몬이 가장 많고, 그 다음이 노멀과 풀이다.
 
-* 최종 예측결과 전체 모델에서 훈련세트에 <strong>약간의 과적합 존재</strong><br>
-* <strong>CatBoost모델의 MAE값이 가장 준수</strong>
-* 해양오염 예측에 사용될 모델을 <strong>CatBoostRegressor로 선정</strong>
-<br>
+* 3세대가 가장 잡기 쉬운 포켓몬이며, 4세대는 가장 어렵다.
+  
+* 전설의 포켓몬은 6세대로 진입하면서 부터 포획하기가 조금 더 수월해졌다.
+  
+* 페어리 타입은 가장 잡기 쉬운 포켓몬이고, 드래곤이 가장 어렵다.
+  
+* 잡기 쉬운 전설의 포켓몬은 풀가 벌레 타입이다.
+  
+* 4세대에는 최고의 일반 포켓몬이 있고, 3세대에는 최고의 전설에 포켓몬이 있다.
+  
+* 1~7세대 통틀어 뮤츠와 레쿠자가 최고의 포켓몬이다.
 
-## 4) 하이퍼파라미터 튜닝
-* CatBoostRegressor모델의 특성상 하이퍼파라미터 튜닝을 진행하여도 모델 성능 개선에 크게 영향을 미치지 않음
-* 오히려 파라미터의 default값으로 모델 예측을 수행하였을 때, 성능이 가장 높게 측정됨
-<br>
 
-## 5) K-Fold 교차검증
-* 최종 선정된 모델(CatBoostRegressor)의 경우 train과 text의 성능 지표에서 약간의 과적합이 발생
-* 과적합을 방지하기 위해 valid data를 생성
-* 해당 데이터셋을 이용하여 가장 흔하게 사용되는 <strong>K-Fold 교차검증을 진행</strong>
-* <strong>K값은 5로 지정</strong>하였으며, 모델 진행시에 골고루 데이터의 특성을 반영하기 위하여 <strong>shuffle을 진행</strong>
-<br>
-
-## 6) 모델평가 및 검증
-<h3 align="center"><img src= https://github.com/LHG-Git/project/assets/100845169/1f3ca8e2-9710-404d-9425-d9a9d3f64cdf></h3>
-
-* <strong>하이퍼파라미터 튜닝 및 K-Fold교차검증을 통하여 모델 성능 최적화를 진행하여 과적합 개선</strong>
-
-* 그 결과 이전의 결과에서 보다 <strong>과적합이 많이 개선</strong>되었음을 확인하였고 <strong>모델의 성능 또한 향상됨</strong>
-
-* 성능 지표의 경우 본 프로젝트의 주제가 ‘해양정보를 활용한 해양오염 예측’ 이기 때문에, 모델의 설명력을 나타내는 R2값 보다 실제 예측 오차의 크기인 MAE가 본 프로젝트와 맞는 지표라고 판단
-
-* <strong>최종 모델링 결과 약 MAE = 0.076으로 실제값과 약 0.076이 차이가 나는 모델 완성</strong>
-
-* 최근 10년동안 국내 연안의 화학적 산소농도가 연평균 1.13~1.82mg/L인 것을 고려했을 때, 꽤 정확도가 높은 모델이라고 설명할 수 있음
 
 
 
