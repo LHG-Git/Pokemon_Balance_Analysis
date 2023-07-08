@@ -67,8 +67,16 @@
 ## 4) 타입별 유형1과 유형2 비교
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/aaff2034-3f86-4086-a08b-1d4d48741285></h3><br>
 
-### 가장 일반적인 유형 조합 / 전설 포켓몬의 가장 일반적인 유형
+### 4-A 가장 일반적인 유형 조합 / 전설 포켓몬의 가장 일반적인 유형
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/c5e27e8c-ec27-4984-8b2d-205030678f80></h3>
+* 첫 번째: 일반 + 비행 / 두 번째: 풀 + 독 / 세 번째: 벌레 + 비행
+* 전설의 포켓몬의 가장 일반적인 유형은 Psychic
+
+### 4-B 세대에 따른 기본 유형의 차이
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/e8e2ce2a-129c-4423-84a8-e51fde62c8ef></h3>
+* 1세대: 암흑, 강철, 비행 그리고 2세대에는 용, 비행같은 타입이 존재하지 않음
+* 비행은 5,6 세대에서만 기본 유형으로 존재한다.
+* 1세대에는 독, 3세대에는 강철, 5세대에는 어둠과 사이킥, 6세대에는 페어리 타입이 유난히 많다.
 <br>
 
 # 📄 Modeling
