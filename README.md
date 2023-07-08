@@ -132,6 +132,7 @@
 >* Defense는 sp_defense와 가장 강한 관계가 있다.
 >* Speed는 defense와 매우 약한 음의 관계가 있다.
 <br>
+
 ### 11-B 전설 포켓몬스터
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/5aeb433e-2d40-4f4f-921d-07e149646bbb></h3>
 
