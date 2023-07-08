@@ -72,6 +72,7 @@
 
 * 첫 번째: 일반 + 비행 / 두 번째: 풀 + 독 / 세 번째: 벌레 + 비행
 * 전설의 포켓몬의 가장 일반적인 유형은 Psychic
+<br>
 
 ### 4-B) 세대에 따른 기본 유형의 차이
 <h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/e8e2ce2a-129c-4423-84a8-e51fde62c8ef></h3>
@@ -80,6 +81,21 @@
 * 비행은 5,6 세대에서만 기본 유형으로 존재한다.
 * 1세대에는 독, 3세대에는 강철, 5세대에는 어둠과 사이킥, 6세대에는 페어리 타입이 유난히 많다.
 <br>
+
+## 5) 가장 잡기 쉬운 포켓몬스터 세대
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/edd8af1b-784e-4b76-8306-8beba9e9fc65></h3>
+
+* 3세대가 가장 포획하기 쉬운 포켓몬이며, 4세대가 가장 어렵다.
+* 전설의 포켓몬은 6세대부터 잡기가 더 쉽다.
+<br>
+
+## 6) 가장 잡기 쉬운 포켓몬스터
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/19efde61-eeaa-4f05-a142-e79f75b2503d></h3>
+
+* 페어리 타입이 가장 잡기 쉬운 포켓몬이며, 드래곤이 가장 어렵다.
+* 잡기 가장 쉬운 전설의 포켓몬은 풀과 벌레 타입이다.
+<br>
+
 
 # 📄 Modeling
 ## 1) 군집화
