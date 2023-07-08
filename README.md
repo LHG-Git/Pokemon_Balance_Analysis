@@ -96,6 +96,24 @@
 * 잡기 가장 쉬운 전설의 포켓몬은 풀과 벌레 타입이다.
 <br>
 
+## 7) 포켓몬은 보통 몇 가지 능력을 가지고 있는가
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/fa3f8dc7-751e-4aa3-bc8f-c24369f0e32d></h3>
+
+* 비전설의 포켓몬의 가장 일반적인 능력 개수는 3개이며, 대부분의 전설의 포켓몬은 1개의 능력만 가지고 있다.
+<br>
+
+## 8) 피지컬이 좋은 포켓몬스터는?
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/77fa5f99-2f23-4d2d-904a-802962adc481></h3>
+
+* 가장 키가 큰 포켓몬 5개 중 2개는 전설의 포켓몬이며, 무거운 포켓몬 5개 중 4개는 전설의 포켓몬이다.
+* 셀레스틸라는 몸무게와 키 모두 top5안에 드는 유일한 포켓몬이다.
+
+## 9) BMI가 가장 높은 포켓몬스터 / BMI가 가장 낮은 포켓몬스터
+<h3 align="center"><img src= https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/48a6ae87-ed98-4bcc-91bc-95f74bf17877></h3>
+
+* BMI가 가장 높은 포켓몬스터는 Cosmoem이다.
+* Haunter와 진화 이전 Gastly가 가장 낮으며, Dratini와 진화버전 Gragonair가 그 뒤를 잇는다.
+<br>
 
 # 📄 Modeling
 ## 1) 군집화
