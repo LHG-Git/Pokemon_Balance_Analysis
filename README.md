@@ -35,7 +35,7 @@
 
 <br><br>
 
-# 📊 EDA(탐색적 데이터 분석)
+# 📊 EDA (탐색적 데이터 분석)
 ## 1) 세대별 포켓몬 수
 <h3 align="center"><img src= "https://github.com/LHG-Git/Pokemon_Balance_Analysis/assets/100845169/7791f49f-38f5-4f6a-a2b3-937814d21e9e"></h3>
 
