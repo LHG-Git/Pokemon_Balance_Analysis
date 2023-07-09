@@ -6,7 +6,7 @@
 <h4> 💭 Language : Python <br><br>
      📝 Library : Pandas, Numpy, Matplotlib, seaborn <br><br>
      🛠  Tool : Google Colab <br><br>
-     📅 진행기간 : 2023.03.23 ~ 2023.06.07</h4>
+     📅 진행기간 : 2022.01.17 ~ 2022.01.31</h4>
      
 ### 👨‍👦‍👦 팀원소개
 <table>
